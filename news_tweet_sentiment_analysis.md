@@ -1,30 +1,3 @@
-# News-Tweet-Sentiment-Analysis
-
-
-## Purpose
-This jupyter notebook analyzes the sentiment scores of tweets by five news organizations: BBC, CBS, CNN, Fox, and The New York Times. The results of this analysis were then plotted using matplotlib.
-
-
-## Requirements
-This notebook requires python to be installed. Python 3.6.2 was used during development. The pandas library used to store, manipulate, filter, merge and perform calculations with the data. The matplotlib and numpy libraries were used to generate the plots showing the trends of various parameters over the course of the study. The jupyter library was used to execute the python code and display results.
-All required libraries can be found in requirements.txt and installed with the following command: <br/>
-<br/>
-`pip install requirements.txt -r`
-<br/>
-You will also need to create a config.py file with variables containing the variables consumer_key, consumer_key_secret, access_token, access_token_secret so that you can use your access keys for the twitter api.
-
-
-## Running the Code
-To run the notebook enter the following into the command line: <br/>
-<br/>
-`$ jupyter notebook` <br/>
-<br/>
-Open up the news_tweet_sentiment_analysis.ipynb notebook in your browser and then click the 'Kernal' and the 'Restart and run all option'
-
-## Methods
-This notebook relies heavily on tweepy to obtain the content of all of the tweets. The vader sentiment analysis library is used to calculate the sentiment values. The numpy library is used to perform some of the statistical calculations and matplotlib was used to plot the data.
-
-## Results
 
 
 ```python
@@ -138,6 +111,19 @@ tweet_df
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -779,6 +765,19 @@ sentiment_df
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -857,6 +856,19 @@ compound_score_df
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1389,7 +1401,7 @@ plt.show()
 ```
 
 
-![png](tweet_polarity_vs_tweet_num.png)
+![png](output_4_0.png)
 
 
 
@@ -1404,7 +1416,7 @@ plt.show()
 ```
 
 
-![png](tweet_polarity_average.png)
+![png](output_5_0.png)
 
 
 ## Observable Trends
