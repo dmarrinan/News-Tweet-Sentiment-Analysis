@@ -6,10 +6,10 @@ This jupyter notebook analyzes the sentiment scores of tweets by five news organ
 
 
 ## Requirements
-This notebook requires python to be installed. Python 3.6.2 was used during development. The pandas library used to store, manipulate, filter, merge and perform calculations with the data. The matplotlib and numpy libraries were used to generate the plots showing the trends of various parameters over the course of the study. The jupyter library was used to execute the python code and display results.
+This notebook requires python to be installed. Python 3.6.2 was used during development. The pandas library used to store and manipulate the data. The matplotlib and numpy libraries were used to generate the plots showing the trends of various parameters over the course of the study. The jupyter library was used to execute the python code and display results.
 All required libraries can be found in requirements.txt and installed with the following command: <br/>
 <br/>
-`pip install requirements.txt -r`
+`pip install requirements.txt -r`<br/>
 <br/>
 You will also need to create a config.py file with variables containing the variables consumer_key, consumer_key_secret, access_token, access_token_secret so that you can use your access keys for the twitter api.
 
